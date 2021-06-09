@@ -2,14 +2,34 @@
 
 A starter for React with Typescript with the fast Vite and all static code testing with Eslint and formatting with Prettier.
 
-![Vite + React + Typescript + Eslint + Prettier](/resources/screenshot.png)
+Based on:
 
-I found out about Vite and I wanted to have a boilerplate for the technologies that I use. You can find more about these in the following links: [Vite](https://github.com/vitejs/vite), [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/).
+- https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier
+
+TODO:
+
+- [ ] sane tests
 
 ## Installation
 
-Clone the repo and run `yarn install`
+Clone this repo or use [degit](https://github.com/Rich-Harris/degit):
 
-## Start
+```console
+degit benvds/pragmatic-spa-template my_spa # && cd my_spa
+```
 
-After the successfull installation of the packages: `yarn start`
+```console
+npm install # or yarn install
+```
+
+## Development
+
+```console
+npm start # or yarn start
+```
+
+## Build
+
+```console
+npm run build # or yarn run build
+```
